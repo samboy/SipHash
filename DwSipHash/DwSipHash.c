@@ -73,14 +73,15 @@ DwSH_WORD DwSip_hash(uint8_t *str, uint32_t len, DwSH_WORD k1, DwSH_WORD k2) {
 #ifdef MAIN
 #include <stdio.h>
 int main() {
-	uint8_t str[64];
+	uint8_t str[66];
 	uint32_t len = 15;
 	DwSH_WORD o = 0;
 	for(len = 0; len < 64; len++) {
-		str[len] = len;
-		o = DwSip_hash(str, len, 0x0706050403020100ULL, 
-			0x0f0e0d0c0b0a0908ULL);
-		printf("%016llx\n",o);
+		if(len > 0) { str[len - 1] = 'a' + (len % 26) - 1; }
+		str[len] = 0;
+		o = DwSip_hash(str, len, 0xded6cbc72f7eeb4fULL, 
+			0x81875fe84b1705d7ULL);
+		printf("%s %016llx\n",str,o);
 	}
 	return 0;
 }
