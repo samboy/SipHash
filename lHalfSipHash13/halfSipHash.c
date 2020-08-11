@@ -1,7 +1,6 @@
 // Public domain 2020 by Sam Trenholme
 #include <stddef.h>
 
-// Sip Hash needs well defined 32-bit ints
 #include <stdint.h>
 // Sip hash has a 64-bit key which should be fairly random
 // This comes from the RadioGatun[32] hash of "https://maradns.samiam.org"
@@ -36,20 +35,20 @@ uint32_t halfSipHash(const char *str, size_t l) {
       }
       shift = 0;
       v3 ^= m;
-      for(round = 0; round < 2; round++) {
-        v0 += v1; 
-        v1 = (v1 << 5) | (v1 >> 27);
-        v1 ^= v0;
-        v0 = (v0 << 16) | (v0 >> 16);
-        v2 += v3;
-        v3 = (v3 << 8) | (v3 >> 24);
-        v3 ^= v2; v0 += v3;
-        v3 = (v3 << 7) | (v3 >> 25);
-	v3 ^= v0; v2 += v1;
-        v1 = (v1 << 13) | (v1 >> 19);
-	v1 ^= v2;
-	v2 = (v2 << 16) | (v2 >> 16);
-      }
+
+      v0 += v1; 
+      v1 = (v1 << 5) | (v1 >> 27);
+      v1 ^= v0;
+      v0 = (v0 << 16) | (v0 >> 16);
+      v2 += v3;
+      v3 = (v3 << 8) | (v3 >> 24);
+      v3 ^= v2; v0 += v3;
+      v3 = (v3 << 7) | (v3 >> 25);
+      v3 ^= v0; v2 += v1;
+      v1 = (v1 << 13) | (v1 >> 19);
+      v1 ^= v2;
+      v2 = (v2 << 16) | (v2 >> 16);
+
       v0 ^= m;
       shift = 0;
       m = 0;
@@ -57,7 +56,7 @@ uint32_t halfSipHash(const char *str, size_t l) {
     offset++;
   }   
   v2 ^= 255;
-  for(round = 0; round < 4; round++) {
+  for(round = 0; round < 3; round++) {
     v0 += v1; 
     v1 = (v1 << 5) | (v1 >> 27);
     v1 ^= v0;
