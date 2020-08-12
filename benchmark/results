@@ -1,0 +1,6 @@
+lunacy64-noSipHash 198.762
+lunacy64-sipHash31 204.623
+lunacy64-sipHash42 207.604
+lunacy32-noSipHash 242.931
+lunacy32-sipHash31 266.488
+lunacy32-sipHash42 273.296
