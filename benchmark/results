@@ -4,3 +4,12 @@ lunacy64-sipHash42 207.604
 lunacy32-noSipHash 242.931
 lunacy32-sipHash31 266.488
 lunacy32-sipHash42 273.296
+---
+lunacy64-noSipHash 197.801
+lunacy64-sipHash31 203.457
+lunacy64-SipHalf31 203.507
+lunacy64-sipHash42 210.043
+lunacy32-noSipHash 240.898
+lunacy32-SipHalf31 246.995
+lunacy32-sipHash31 265.916
+lunacy32-sipHash42 270.226

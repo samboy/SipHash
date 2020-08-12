@@ -1,0 +1,392 @@
+-----------------------
+lunacy32
+
+real	0m39.043s
+user	0m38.377s
+sys	0m0.655s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m37.989s
+user	0m37.317s
+sys	0m0.663s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.375s
+user	0m33.609s
+sys	0m0.754s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m35.739s
+user	0m35.006s
+sys	0m0.725s
+-----------
+-----------------------
+lunacy64
+
+real	0m30.068s
+user	0m29.108s
+sys	0m0.952s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m28.756s
+user	0m27.818s
+sys	0m0.928s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.286s
+user	0m27.394s
+sys	0m0.885s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m28.762s
+user	0m27.814s
+sys	0m0.942s
+-----------
+-----------------------
+lunacy32
+
+real	0m38.319s
+user	0m37.625s
+sys	0m0.685s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m37.701s
+user	0m36.962s
+sys	0m0.730s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.362s
+user	0m33.673s
+sys	0m0.682s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m34.981s
+user	0m34.323s
+sys	0m0.651s
+-----------
+-----------------------
+lunacy64
+
+real	0m30.075s
+user	0m29.198s
+sys	0m0.871s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m28.996s
+user	0m28.086s
+sys	0m0.903s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.404s
+user	0m27.481s
+sys	0m0.917s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m29.688s
+user	0m28.747s
+sys	0m0.869s
+-----------
+-----------------------
+lunacy32
+
+real	0m38.489s
+user	0m37.829s
+sys	0m0.653s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m37.901s
+user	0m37.226s
+sys	0m0.667s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.331s
+user	0m33.708s
+sys	0m0.615s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m34.781s
+user	0m34.126s
+sys	0m0.648s
+-----------
+-----------------------
+lunacy64
+
+real	0m29.924s
+user	0m28.960s
+sys	0m0.956s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m28.785s
+user	0m27.870s
+sys	0m0.907s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.434s
+user	0m27.520s
+sys	0m0.908s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m28.828s
+user	0m27.919s
+sys	0m0.903s
+-----------
+-----------------------
+lunacy32
+
+real	0m38.803s
+user	0m38.120s
+sys	0m0.673s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m38.277s
+user	0m37.624s
+sys	0m0.645s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.457s
+user	0m33.781s
+sys	0m0.669s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m35.152s
+user	0m34.506s
+sys	0m0.639s
+-----------
+-----------------------
+lunacy64
+
+real	0m29.635s
+user	0m28.792s
+sys	0m0.836s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m29.058s
+user	0m28.153s
+sys	0m0.899s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.118s
+user	0m27.183s
+sys	0m0.928s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m29.691s
+user	0m28.863s
+sys	0m0.821s
+-----------
+-----------------------
+lunacy32
+
+real	0m38.541s
+user	0m37.884s
+sys	0m0.649s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m37.882s
+user	0m37.126s
+sys	0m0.684s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.539s
+user	0m33.864s
+sys	0m0.667s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m35.601s
+user	0m34.930s
+sys	0m0.664s
+-----------
+-----------------------
+lunacy64
+
+real	0m30.002s
+user	0m29.065s
+sys	0m0.931s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m29.090s
+user	0m28.101s
+sys	0m0.982s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.012s
+user	0m27.086s
+sys	0m0.919s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m28.850s
+user	0m27.895s
+sys	0m0.948s
+-----------
+-----------------------
+lunacy32
+
+real	0m38.636s
+user	0m37.948s
+sys	0m0.680s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m38.307s
+user	0m37.595s
+sys	0m0.704s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.607s
+user	0m33.932s
+sys	0m0.667s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m35.312s
+user	0m34.685s
+sys	0m0.620s
+-----------
+-----------------------
+lunacy64
+
+real	0m30.126s
+user	0m29.278s
+sys	0m0.842s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m29.483s
+user	0m28.604s
+sys	0m0.872s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.217s
+user	0m27.351s
+sys	0m0.859s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m28.882s
+user	0m27.996s
+sys	0m0.881s
+-----------
+-----------------------
+lunacy32
+
+real	0m38.395s
+user	0m37.689s
+sys	0m0.697s
+-----------
+-----------------------
+lunacy32-sipHash31
+
+real	0m37.859s
+user	0m37.116s
+sys	0m0.733s
+-----------
+-----------------------
+lunacy32-noSipHash
+
+real	0m34.227s
+user	0m33.566s
+sys	0m0.653s
+-----------
+-----------------------
+lunacy32-halfSipHash31
+
+real	0m35.429s
+user	0m34.719s
+sys	0m0.650s
+-----------
+-----------------------
+lunacy64
+
+real	0m30.213s
+user	0m29.288s
+sys	0m0.919s
+-----------
+-----------------------
+lunacy64-sipHash31
+
+real	0m29.289s
+user	0m28.387s
+sys	0m0.895s
+-----------
+-----------------------
+lunacy64-noSipHash
+
+real	0m28.330s
+user	0m27.476s
+sys	0m0.848s
+-----------
+-----------------------
+lunacy64-halfSipHash31
+
+real	0m28.806s
+user	0m27.919s
+sys	0m0.881s
+-----------
